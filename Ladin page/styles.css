@@ -1,0 +1,167 @@
+
+body {
+    background:
+      url('Fundo2.svg'),
+      linear-gradient(135deg, #1a237e 0%, #0a0119 40%, #16032c 80%, #000000 100%);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0px;
+    padding: 10px;
+    min-height: 100vh;
+    background-attachment: fixed;
+
+}
+
+#fundo-estrelas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 115vh;
+  z-index: -1;
+  pointer-events: none;
+  background: transparent;
+
+}
+
+
+nav {
+background-color: rgba(61, 214, 214, 0.286);
+backdrop-filter: blur(10px);
+z-index: 1000;
+-webkit-backdrop-filter: blur(10px);
+color: #ffffff;
+padding: 1rem;
+border-radius: 1%;
+text-align: right;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav li {
+display: inline;
+margin-right: 1rem;
+}
+
+nav a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+}
+
+h1 {
+  display: flexbox;
+text-align: left;
+margin-top: 3rem;
+max-width: 35rem;
+color: aliceblue;
+margin-left: 6rem;
+font-size: 3.5rem;
+top: 0;
+padding: 6rem;
+font-weight: bold;
+}
+
+
+.foto {
+  height: 4rem;
+  display: inline-flex;
+  border: 2px solid #f4e3e3;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: 5rem;
+  position: absolute;
+  top: 9rem;
+
+}
+
+.Sobre {
+  color: aliceblue;
+  margin-left: 12rem;
+  max-width: 45rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: left;
+  background-color: rgba(9, 186, 186, 0.235);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2%;
+}
+
+.projetos {
+  color: aliceblue;
+  margin-left: 12rem;
+  max-width: 55rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: left;
+  background-color: rgba(9, 186, 186, 0.235);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2%;
+}
+
+.titulo {
+  color: #21acfc;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+}
+
+.titulosobre {
+    color: #21acfc;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+  display: inline-flex;
+}
+
+.curriculo button {
+   position: absolute;
+    top: 200px;
+    right: 20px;
+    z-index: 1000;
+    margin-right: 6rem;
+    background-color: rgb(30, 255, 255);
+    color: #ffffff;
+    backdrop-filter: blur(10px);
+    border-radius:12%;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+    -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+}
+
+.verprojetos button {
+    position: absolute;
+      top: 300px;
+      right: 20px;
+      z-index: 1000;
+      margin-right: 6rem;
+      background-color: rgb(30, 255, 255);
+      color: #ffffff;
+      backdrop-filter: blur(10px);
+      border-radius:12%;
+      font-size: 1.5rem;
+      border: none;
+      padding: 1rem 1.6rem;
+      cursor: pointer;
+      -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+}

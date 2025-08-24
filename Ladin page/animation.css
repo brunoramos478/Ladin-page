@@ -1,0 +1,71 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+
+
+nav a:hover {
+    color: #21acfc;
+    font-size: 1.7rem;
+    transition: 0.3s;
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+}
+
+.titulo:hover {
+    color: #21acfc;
+    font-size: 4.5rem;
+    transition: 0.3s;
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #2142fc, #f4e3e3);
+}
+
+.foto:hover {
+    transform: scale(1.3);
+    transition: 0.25s;
+}
+
+.titulosobre:hover {
+    color: #21acfc;
+    font-size: 4.5rem;
+    transition: 0.3s;
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #2142fc, #f4e3e3);
+}
+.curriculo button:hover {
+    border: none;
+    color: #fff;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+   transition: 0.3s;
+   scale: 1.4;
+   box-sizing: border-box;
+}
+
+.verprojetos button:hover {
+    border: none;
+    color: #fff;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(45deg, #21acfc, #f4e3e3);
+   transition: 0.3s;
+   scale: 1.4;
+   box-sizing: border-box;
+}
