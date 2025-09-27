@@ -9,7 +9,7 @@ def jogador_escolhe():
  lista = [] 
 
  while True and len(lista) < 3:
-   jogador_joga = input('Escolha pedra, papel, ou tesoura: ').lower()
+   jogador_joga = input('Escolha pedra, papel, ou tesoura: ').lower().strip()
 
    if jogador_joga not in jogadas:
       print('Jogada inválida. Tente novamente.') # Mensagem de erro para jogada inválida
