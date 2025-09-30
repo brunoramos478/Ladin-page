@@ -66,12 +66,18 @@ display: none;
 }
 
 nav {
-    position: relative;
+ justify-items: column;
+    position: relative
 }
 
 nav a {
-    margin-right: 2rem;
+   position: relative;
 
+}
+nav ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 .btncard button {
     scale: 1.4;

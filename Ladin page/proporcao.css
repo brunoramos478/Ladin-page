@@ -90,6 +90,7 @@ nav a {
     position: relative;
     margin-left: 8;
     margin-right: 8;
+    width: 25%;
 }
 
 .btncard button:hover {
