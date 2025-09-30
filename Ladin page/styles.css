@@ -46,11 +46,14 @@ nav ul {
 list-style: none;
 padding: 0;
 display: flex;
+justify-content: right;
 }
 
 nav li {
 display: inline;
 margin-right: 1rem;
+display: flex;
+
 }
 
 nav a {

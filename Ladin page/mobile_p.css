@@ -78,6 +78,7 @@ nav ul{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
 .btncard button {
     scale: 1.4;
